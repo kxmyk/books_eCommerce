@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60d429f6-c33c-4b3e-93f9-c47d23e96204" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/SpringBootEcommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/SpringBootEcommerceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/config/MyDataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/config/MyDataRestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dao/ProductCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dao/ProductCategoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dao/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/SpringBootEcommerceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/SpringBootEcommerceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/config/MyDataRestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/config/MyDataRestConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/dao/ProductCategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/dao/ProductCategoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/entity/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/entity/ProductCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/entity/ProductCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/product-category-menu/product-category-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/product-category-menu/product-category-menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/product-category-menu/product-category-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/product-category-menu/product-category-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/entity/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/entity/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kxmil/ecommerce/SpringBootEcommerceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kxmil/ecommerce/SpringBootEcommerceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

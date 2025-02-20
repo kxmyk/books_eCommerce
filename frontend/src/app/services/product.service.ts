@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import {Observable} from "rxjs";
-import {Product} from "../common/product";
+import {HttpClient} from '@angular/common/http';
+import {Observable} from 'rxjs';
+import {Product} from '../common/product';
 import {map} from 'rxjs/operators'
 import {ProductCategory} from '../common/product-category';
 
@@ -36,7 +36,7 @@ interface GetResponseProducts {
   }
 }
 
-  interface GetResponseProductCategory {
+interface GetResponseProductCategory {
   _embedded: {
     productCategory: ProductCategory[];
   }
