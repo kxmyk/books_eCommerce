@@ -4,6 +4,7 @@
          class='au-input au-input-xl'
          placeholder='Search for products ...'
          (keyup)='doSearch(myInput.value)'
+         (keyup.backspace)='doSearch(myInput.value)'
   />
   <button class='au-btn-submit'
           (click)='doSearch(myInput.value)'
