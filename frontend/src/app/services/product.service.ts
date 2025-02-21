@@ -28,6 +28,10 @@ export class ProductService {
     return this.httpClient.get<GetResponseProductCategory>(this.categoryUrl).pipe(map(response => response._embedded.productCategory)
     );
   }
+
+  searchProducts(theKeyword: string) {
+    
+  }
 }
 
 interface GetResponseProducts {
