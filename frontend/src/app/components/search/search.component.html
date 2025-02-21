@@ -3,7 +3,7 @@
          type='text'
          class='au-input au-input-xl'
          placeholder='Search for products ...'
-         (keyup.enter)='doSearch(myInput.value)'
+         (keyup)='doSearch(myInput.value)'
   />
   <button class='au-btn-submit'
           (click)='doSearch(myInput.value)'
