@@ -39,6 +39,8 @@
                 <ngb-pagination [collectionSize]='theTotalElements'
                                 [pageSize]='thePageSize'
                                 [page]='thePageNumber'
+                                [maxSize]='5'
+                                [boundaryLinks]='true'
                                 (pageChange)='listProducts()'>
 
                 </ngb-pagination>
