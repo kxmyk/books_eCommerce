@@ -568,7 +568,7 @@ input.au-input.au-input-xl {
 }
 
 .price {
-  margin: 15px 0 0;
+  margin: 15px 0 10px;
   font-weight: 800;
   color: #0da8e4
 }
@@ -766,7 +766,7 @@ table.table.table-bordered th {
  */
 
 .price {
-  margin: 15px 0 0;
+  margin: 15px 0 10px;
   font-weight: 800;
   color: #0da8e4
 }

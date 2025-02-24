@@ -14,8 +14,8 @@
               <h1>{{ tempProduct.name }}</h1>
               <div class='price'>{{ tempProduct.unitPrice | currency:'USD' }}</div>
             </a>
-            <a class='primary-btn'
-               href='#'>Add to cart</a>
+            <button (click)='addToCart(tempProduct)' class='btn btn-primary'
+               href=''>Add to cart</button>
           </div>
         </div>
 
