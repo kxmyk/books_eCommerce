@@ -56,7 +56,7 @@ export class CartService {
     }
   }
 
-  private remove(tempCartItem: CartItem) {
+  remove(tempCartItem: CartItem) {
     // get index of item in the array
     const itemIndex = this.cartItems.indexOf(tempCartItem);
 
