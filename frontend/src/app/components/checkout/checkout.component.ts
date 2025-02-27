@@ -14,8 +14,8 @@ export class CheckoutComponent implements OnInit {
   totalPrice: number = 10;
   totalQuantity: number = 10;
 
-  creditCardYears: Array<number> = [];
-  creditCardMonths: Array<number> = [];
+  creditCardYears: number[] = [];
+  creditCardMonths: number[] = [];
 
   constructor(private formBuilder: FormBuilder,
               private formService: FormService) {
@@ -47,7 +47,7 @@ export class CheckoutComponent implements OnInit {
         country: ['', Validators.required],
         zipCode: ['', Validators.required],
       }),
-      creditCards: this.formBuilder.group({
+      creditCard: this.formBuilder.group({
         cardType: ['', Validators.required],
         nameOnCard: ['', Validators.required],
         cardNumber: ['', Validators.required],
