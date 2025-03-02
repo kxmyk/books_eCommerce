@@ -38,7 +38,7 @@
                        type='text'>
                 <div *ngIf='lastName?.invalid && (lastName?.dirty || lastName?.touched)'
                      class='alert alert-danger mt-1'>
-                  <div *ngIf="lastName?.errors?.['required']|| firstName?.errors?.['notOnlyWhiteSpace']">
+                  <div *ngIf="lastName?.errors?.['required']|| lastName?.errors?.['notOnlyWhiteSpace']">
                     Last Name is required
                   </div>
                   <div *ngIf="lastName?.errors?.['minlength']">
@@ -168,11 +168,11 @@
                 <div *ngIf='shippingAddressZipCode?.invalid && (shippingAddressZipCode?.dirty || shippingAddressZipCode?.touched)'
                      class='alert alert-danger mt-1'>
 
-                  <div *ngIf="firstName?.errors?.['required'] || shippingAddressZipCode?.errors?.['notOnlyWhiteSpace']">
-                    Zip code is required
+                  <div *ngIf="shippingAddressZipCode?.errors?.['required'] || shippingAddressZipCode?.errors?.['notOnlyWhiteSpace']">
+                    Zip Code is required
                   </div>
                   <div *ngIf="shippingAddressZipCode?.errors?.['minlength']">
-                    Zip code must be at least 2 characters long
+                    Zip Code must be at least 2 characters long
                   </div>
                 </div>
               </div>
@@ -267,7 +267,7 @@
                     {{ state.name }}
                   </option>
                 </select>
-                <div *ngIf='billingAddressState?.invalid && (firstName?.dirty || billingAddressState?.touched)'
+                <div *ngIf='billingAddressState?.invalid && (billingAddressState?.dirty || billingAddressState?.touched)'
                      class='alert alert-danger mt-1'>
 
                   <div *ngIf="billingAddressState?.errors?.['required'] || billingAddressState?.errors?.['notOnlyWhiteSpace']">
@@ -287,11 +287,11 @@
                 <div *ngIf='shippingAddressZipCode?.invalid && (billingAddressZipCode?.dirty || billingAddressZipCode?.touched)'
                      class='alert alert-danger mt-1'>
 
-                  <div *ngIf="firstName?.errors?.['required'] || billingAddressZipCode?.errors?.['notOnlyWhiteSpace']">
-                    Zip code is required
+                  <div *ngIf="billingAddressZipCode?.errors?.['required'] || billingAddressZipCode?.errors?.['notOnlyWhiteSpace']">
+                    Zip Code is required
                   </div>
                   <div *ngIf="billingAddressZipCode?.errors?.['minlength']">
-                    Zip code must be at least 2 characters long
+                    Zip Code must be at least 2 characters long
                   </div>
                 </div>
               </div>
@@ -313,6 +313,13 @@
                   <option>Visa</option>
                   <option>Mastercard</option>
                 </select>
+                <div *ngIf='creditCardType?.invalid && (creditCardType?.dirty || creditCardType?.touched)'
+                     class='alert alert-danger mt-1'>
+
+                  <div *ngIf="creditCardType?.errors?.['required'] || creditCardType?.errors?.['notOnlyWhiteSpace']">
+                    Card Type is required
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -323,6 +330,15 @@
               <div class='input-space'>
                 <input formControlName='nameOnCard'
                        type='text'>
+                <div *ngIf='creditCardNameOnCard?.invalid && (creditCardNameOnCard?.dirty || creditCardNameOnCard?.touched)'
+                     class='alert alert-danger mt-1'>
+                  <div *ngIf="creditCardNameOnCard?.errors?.['required'] || creditCardNameOnCard?.errors?.['notOnlyWhiteSpace']">
+                    Name on Card is required
+                  </div>
+                  <div *ngIf="creditCardNameOnCard?.errors?.['minlength']">
+                    Name on Card must be at least 2 characters long
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -333,6 +349,15 @@
               <div class='input-space'>
                 <input formControlName='cardNumber'
                        type='text'>
+                <div *ngIf='creditCardNumber?.invalid && (creditCardNumber?.dirty || creditCardNumber?.touched)'
+                     class='alert alert-danger mt-1'>
+                  <div *ngIf="creditCardNumber?.errors?.['required']">
+                    Card Number is required
+                  </div>
+                  <div *ngIf="creditCardNumber?.errors?.['pattern']">
+                    Card Number must be 16 characters long
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -343,6 +368,16 @@
               <div class='input-space'>
                 <input formControlName='securityCode'
                        type='text'>
+                <div *ngIf='creditCardSecurityCode?.invalid && (creditCardSecurityCode?.dirty || creditCardSecurityCode?.touched)'
+                     class='alert alert-danger mt-1'>
+
+                  <div *ngIf="creditCardSecurityCode?.errors?.['required']">
+                    Security Code is required
+                  </div>
+                  <div *ngIf="creditCardSecurityCode?.errors?.['pattern']">
+                    Security Code must be 3 characters long
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -352,11 +387,9 @@
             <div class='col-md-9'>
               <div class='input-space'>
                 <select formControlName='expirationMonth'>
-
                   <option *ngFor='let month of creditCardMonths'>
                     {{ month }}
                   </option>
-
                 </select>
               </div>
             </div>
@@ -368,11 +401,9 @@
               <div class='input-space'>
                 <select formControlName='expirationYear'
                         (change)='handleMonthsAndYears()'>
-
                   <option *ngFor='let year of creditCardYears'>
                     {{ year }}
                   </option>
-
                 </select>
               </div>
             </div>
