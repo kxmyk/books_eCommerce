@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60d429f6-c33c-4b3e-93f9-c47d23e96204" name="Changes" comment="Backend - Updated classes with relationships">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dto/Purchase.java" afterDir="false" />
+    <list default="true" id="60d429f6-c33c-4b3e-93f9-c47d23e96204" name="Changes" comment="Backend - Created purchase data transfer objects">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/controller/CheckoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dao/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/service/CheckoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/service/CheckoutServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dto/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dto/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dto/PurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/dto/PurchaseResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741115593990</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Backend - Created purchase data transfer objects">
+      <option name="closed" value="true" />
+      <created>1741115922064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741115922064</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +180,7 @@
     <MESSAGE value="Updated readonly classes config" />
     <MESSAGE value="Backend - Created classes for saving Order to db" />
     <MESSAGE value="Backend - Updated classes with relationships" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend - Updated classes with relationships" />
+    <MESSAGE value="Backend - Created purchase data transfer objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend - Created purchase data transfer objects" />
   </component>
 </project>
