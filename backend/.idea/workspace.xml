@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60d429f6-c33c-4b3e-93f9-c47d23e96204" name="Changes" comment="Updated .gitignore files" />
+    <list default="true" id="60d429f6-c33c-4b3e-93f9-c47d23e96204" name="Changes" comment="Updated readonly classes config">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxmil/ecommerce/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/config/MyDataRestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kxmil/ecommerce/config/MyDataRestConfig.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -20,26 +35,29 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2tHHHBmcEItLDFPGA9ZsqUHoZUN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SpringBootEcommerceApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kamillukasiuk/Desktop/udemy/spring-boot-ecommerce/spring-boot-ecommerce/backend",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringBootEcommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kamillukasiuk/Desktop/udemy/spring-boot-ecommerce/spring-boot-ecommerce/backend&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
-      <ReportDescription localRun="true" path="/private/var/folders/rk/8_2c9fx9721dtlzzs8m0f_hr0000gn/T/qodana_output2/qodana.sarif.json" reportGuid="9f262f05-3146-4e33-a576-332a47d6d5a0" reportId="backend/qodana/2025-02-23" />
+      <ReportDescription localRun="true" path="/private/var/folders/rk/8_2c9fx9721dtlzzs8m0f_hr0000gn/T/qodana_output1/qodana.sarif.json" reportGuid="31ab77c5-1a85-4f36-ad72-30243f363761" reportId="backend/qodana/2025-02-28" />
     </option>
   </component>
   <component name="RunManager">
@@ -87,12 +105,59 @@
       <option name="project" value="LOCAL" />
       <updated>1740166024291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created Country and State classes">
+      <option name="closed" value="true" />
+      <created>1740773326225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740773326225</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created JPA repository for Country class">
+      <option name="closed" value="true" />
+      <created>1740774292479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740774292479</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created JPA repository for State class">
+      <option name="closed" value="true" />
+      <created>1740774575583</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740774575583</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated readonly classes config">
+      <option name="closed" value="true" />
+      <created>1740775103383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740775103383</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added search method on backend" />
     <MESSAGE value="Updated .gitignore files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore files" />
+    <MESSAGE value="Created Country and State classes" />
+    <MESSAGE value="Created JPA repository for Country class" />
+    <MESSAGE value="Created JPA repository for State class" />
+    <MESSAGE value="Updated readonly classes config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated readonly classes config" />
   </component>
 </project>
