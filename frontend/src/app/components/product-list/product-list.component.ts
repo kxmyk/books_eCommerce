@@ -74,7 +74,6 @@ export class ProductListComponent implements OnInit {
     // reset page to 1 when keyword changes
     if (this.previousKeyword != theKeyword) {
       this.thePageNumber = 1;
-      console.log('reset page to 1');
     }
 
     this.previousKeyword = theKeyword;

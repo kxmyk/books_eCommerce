@@ -42,9 +42,6 @@ export class CartService {
 
     this.totalPrice.next(totalPriceValue);
     this.totalQuantity.next(totalQuantityValue);
-
-    console.log('total price: ' + totalPriceValue);
-    console.log('total quantity: ' + totalQuantityValue);
   }
 
   decrementQuantity(tempCartItem: CartItem) {
